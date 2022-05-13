@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>churrasco</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let homem, mulher, bebidas,carvao, consumoHomens, consumoMulheres, pessoas, consumoTotal;
+        homem= parseInt (prompt("Quanto homens vão ao churrasco?"));
+        mulher= parseInt (prompt("Quantas mulheres vão ao churrasco?"));
+        pessoas= homem + mulher;
+        bebidas= (pessoas * 1.5) /2; //garrafa 2lt
+        consumoHomens= homem * 400;
+        consumoMulheres= mulher * 300;
+        consumoTotal= consumoHomens + consumoMulheres;
+        carvao= consumoTotal /6000;
+        //alert("Total de pessoas" + pessoas);
+        //alert("consumo Feminino: " + consumoMulheres +" gramas de carne");
+        //alert("consumo Masculino: " + consumoHomens + " gramas de carne");
+        //alert("consumo Total de carne: " + consumoTotal + " gramas de carne"); 
+        //alert("consumo total de refrigerantes " + Math.ceil(bebidas));
+        //para assar 6kg de carne e preciso 5 saco de carvão
+        alert("consumo de carvao: " + Math.ceil(carvao));
+        
+
+
+
+
+        
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
